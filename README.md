@@ -10,6 +10,12 @@
      <a alt="ngx-bootstrap">
         <img src="https://img.shields.io/badge/ngx_bootstrap-v6.2.0-brightgreen.svg" />
     </a>
+     <a alt="HTML5">
+        <img src="https://img.shields.io/badge/HTML-v5-brightgreen.svg" />
+    </a>
+     <a alt="CSS">
+        <img src="https://img.shields.io/badge/CSS-v3-brightgreen.svg" />
+    </a>
 </p>
 
 - Descrição do projeto:
@@ -35,13 +41,11 @@ o Lista de lembretes
 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## Comandos para rodar o projeto:
 
-## Development server
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
