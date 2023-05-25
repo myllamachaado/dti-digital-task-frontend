@@ -39,6 +39,12 @@ o Lista de lembretes
 - Os dias da lista de lembretes deverão ser exibidos em ordem cronológica
 
 
+##Interface
+
+<p align="center">
+  <img src="[https://i.imgur.com/7phya16.png](https://github.com/myllamachaado/dti-digital-task-frontend/blob/master/src/interface_angular.png)"  alt="Frontend projeto Lembretes Dti Digital"/><br>
+</p>
+</figure>
 
 
 ## Comandos para rodar o projeto:
