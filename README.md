@@ -8,7 +8,7 @@
         <img src="https://img.shields.io/badge/Typescript-v5.0.4-brightgreen.svg" />
     </a>
      <a alt="ngx-bootstrap">
-        <img src="https://img.shields.io/badge/ngx_bootstrap-v5.0.4-brightgreen.svg" />
+        <img src="https://img.shields.io/badge/ngx_bootstrap-v6.2.0-brightgreen.svg" />
     </a>
 </p>
 
