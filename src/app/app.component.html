@@ -1,0 +1,54 @@
+<div class="container">
+    <h1 class="text-center">Novo Lembrete</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <form (ngSubmit)="saveTask(taskForm.value)" [formGroup] = "taskForm" #formDir = "ngForm">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do Lembrete" formControlName="nome" required>
+          </div>
+          <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="date" class="form-control" id="data" name="data" formControlName="data" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Criar</button>
+        </form>
+      </div>
+    </div>
+    <br>
+    <div *ngIf="nome.invalid  && formDir.submitted" class="row justify-content-center">
+    <div class="alert alert-danger col-md-3" role="alert">
+      O campo nome é obrigatório.
+    </div>
+    </div>
+
+    <div *ngIf="data.invalid && formDir.submitted" class="row justify-content-center">
+    <div class="alert alert-danger col-md-3" role="alert">
+      O campo data é obrigatório.
+    </div>
+    </div>
+
+    <div *ngIf="comparaData(data.value) && formDir.submitted" class="row justify-content-center">
+      <div class="alert alert-danger col-md-3" role="alert">
+        Selecione uma data futura.
+      </div>
+      </div>
+
+    <br>
+    <div *ngIf="taskResponseList" class="row justify-content-center">
+      <div class="col-md-6">
+        <h5 class="text-center">Lembretes cadastrado</h5>
+        <br>
+        <table class="table">
+          <tbody *ngFor="let task of taskResponseList">
+            <tr>
+              <td scope="row">{{task?.data}}</td>
+              <td>{{task?.nome}}</td>
+              <td> <a href="" (click)="deleteTutorial(task.id)"> <img src="https://cdn-icons-png.flaticon.com/512/216/216658.png" width="25px" height="25px" > </a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
