@@ -8,13 +8,13 @@
         <img src="https://img.shields.io/badge/Typescript-v5.0.4-brightgreen.svg" />
     </a>
      <a alt="ngx-bootstrap">
-        <img src="https://img.shields.io/badge/ngx_bootstrap-v6.2.0-brightgreen.svg" />
+        <img src="https://img.shields.io/badge/ngx_bootstrap-v6.2.0-red.svg" />
     </a>
      <a alt="HTML5">
-        <img src="https://img.shields.io/badge/HTML-v5-brightgreen.svg" />
+        <img src="https://img.shields.io/badge/HTML-v5-blueviolet.svg" />
     </a>
      <a alt="CSS">
-        <img src="https://img.shields.io/badge/CSS-v3-brightgreen.svg" />
+        <img src="https://img.shields.io/badge/CSS-v3-orange.svg" />
     </a>
 </p>
 
