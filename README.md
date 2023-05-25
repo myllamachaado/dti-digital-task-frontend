@@ -7,12 +7,10 @@
     <a alt="Typescript">
         <img src="https://img.shields.io/badge/Typescript-v5.0.4-brightgreen.svg" />
     </a>
+     <a alt="ngx-bootstrap">
+        <img src="https://img.shields.io/badge/Typescript-v5.0.4-brightgreen.svg" />
+    </a>
 </p>
-![npm version](https://badge.fury.io/js/ngx-bootstrap.svg)] 
-![npm downloads](https://img.shields.io/npm/dm/ngx-bootstrap.svg)]
-![slack](https://ngx-slack.herokuapp.com/badge.svg)](https://ngx-slack.herokuapp.com)
-
-
 
 - Descrição do projeto:
 Você deverá desenvolver um sistema de criação de lembretes, seguindo as seguintes régras: 
