@@ -41,12 +41,7 @@ o Lista de lembretes
 
 ## Interface
 
-<p align="center">
-   
-  <img src="[[https://i.imgur.com/7phya16.png](https://github.com/myllamachaado/dti-digital-task-frontend/blob/master/src/interface_angular.png)](https://github.com/myllamachaado/dti-digital-task-frontend/blob/master/src/interface_angular.png)"  alt="Frontend projeto Lembretes Dti Digital"/><br>
-</p>
-</figure>
-
+![Frontend projeto Lembretes Dti Digital](https://github.com/myllamachaado/dti-digital-task-frontend/blob/master/src/interface_angular.png)
 
 ## Comandos para rodar o projeto:
 
